@@ -51,3 +51,5 @@ local.properties
 .recommenders/
 0
 
+# Generated-src files
+src-gen/
