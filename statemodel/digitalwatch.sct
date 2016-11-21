@@ -278,7 +278,7 @@
                     <outgoingTransitions xmi:id="_2hOBUKkJEearJrT7kFweVw" specification="always[active(EndEdit.pushed.Decision.end)]" target="_tizU0KkJEearJrT7kFweVw"/>
                     <regions xmi:id="_7K7XYqkJEearJrT7kFweVw" name="Decision">
                       <vertices xsi:type="sgraph:State" xmi:id="_FTu98KkLEearJrT7kFweVw" name="pushed" incomingTransitions="_Lc1qMKkLEearJrT7kFweVw">
-                        <outgoingTransitions xmi:id="_L5SVoKkLEearJrT7kFweVw" specification="Buttons.bottomRightReleased[active(EndEdit.pushed.Hold.plusTwoSeconds)]" target="_HO64QKkLEearJrT7kFweVw"/>
+                        <outgoingTransitions xmi:id="_L5SVoKkLEearJrT7kFweVw" specification="always[active(EndEdit.pushed.Hold.plusTwoSeconds)]" target="_HO64QKkLEearJrT7kFweVw"/>
                         <outgoingTransitions xmi:id="_hIXigKkLEearJrT7kFweVw" specification="Buttons.bottomRightReleased[active(EndEdit.pushed.Hold.pushed)]" target="_d-6eQKkLEearJrT7kFweVw"/>
                       </vertices>
                       <vertices xsi:type="sgraph:Entry" xmi:id="_Kv5rsKkLEearJrT7kFweVw">
@@ -496,7 +496,7 @@
                       </vertices>
                       <vertices xsi:type="sgraph:State" xmi:id="_IxPagK_5EeaE5OVZ6KEM8g" name="pushed" incomingTransitions="_LSpnUK_5EeaE5OVZ6KEM8g">
                         <outgoingTransitions xmi:id="_Q4a9AK_5EeaE5OVZ6KEM8g" specification="Buttons.bottomRightReleased[active(EndEdit.pushed.Hold.pushed)]" target="_NQzWEK_5EeaE5OVZ6KEM8g"/>
-                        <outgoingTransitions xmi:id="_RWFJYK_5EeaE5OVZ6KEM8g" specification="Buttons.bottomRightReleased[active(EndEdit.pushed.Hold.plusTwoSeconds)]" target="_MhL3AK_5EeaE5OVZ6KEM8g"/>
+                        <outgoingTransitions xmi:id="_RWFJYK_5EeaE5OVZ6KEM8g" specification="always[active(EndEdit.pushed.Hold.plusTwoSeconds)]" target="_MhL3AK_5EeaE5OVZ6KEM8g"/>
                       </vertices>
                       <vertices xsi:type="sgraph:State" xmi:id="_MhL3AK_5EeaE5OVZ6KEM8g" name="end" incomingTransitions="_RWFJYK_5EeaE5OVZ6KEM8g"/>
                       <vertices xsi:type="sgraph:State" xmi:id="_NQzWEK_5EeaE5OVZ6KEM8g" name="active" incomingTransitions="_Q4a9AK_5EeaE5OVZ6KEM8g"/>
@@ -654,7 +654,7 @@
                         <outgoingTransitions xmi:id="_LjbG4K_8EeaE5OVZ6KEM8g" specification="" target="_Iyl-AK_8EeaE5OVZ6KEM8g"/>
                       </vertices>
                       <vertices xsi:type="sgraph:State" xmi:id="_Iyl-AK_8EeaE5OVZ6KEM8g" name="pushed" incomingTransitions="_LjbG4K_8EeaE5OVZ6KEM8g">
-                        <outgoingTransitions xmi:id="_L7MtsK_8EeaE5OVZ6KEM8g" specification="Buttons.bottomRightReleased[active(EndEdit.pushed.Hold.plusTwoSeconds)]" target="_KMV_MK_8EeaE5OVZ6KEM8g"/>
+                        <outgoingTransitions xmi:id="_L7MtsK_8EeaE5OVZ6KEM8g" specification="always[active(EndEdit.pushed.Hold.plusTwoSeconds)]" target="_KMV_MK_8EeaE5OVZ6KEM8g"/>
                         <outgoingTransitions xmi:id="_MVrDMK_8EeaE5OVZ6KEM8g" specification="Buttons.bottomRightReleased[active(EndEdit.pushed.Hold.pushed)]" target="_KvtK8K_8EeaE5OVZ6KEM8g"/>
                       </vertices>
                       <vertices xsi:type="sgraph:State" xmi:id="_KMV_MK_8EeaE5OVZ6KEM8g" name="end" incomingTransitions="_L7MtsK_8EeaE5OVZ6KEM8g"/>
@@ -813,7 +813,7 @@
                         <outgoingTransitions xmi:id="_VRjRsK__EeaE5OVZ6KEM8g" specification="" target="_Rf0sgK__EeaE5OVZ6KEM8g"/>
                       </vertices>
                       <vertices xsi:type="sgraph:State" xmi:id="_Rf0sgK__EeaE5OVZ6KEM8g" name="pushed" incomingTransitions="_VRjRsK__EeaE5OVZ6KEM8g">
-                        <outgoingTransitions xmi:id="_UGB5wK__EeaE5OVZ6KEM8g" specification="Buttons.bottomRightReleased[active(EndEdit.pushed.Hold.plusTwoSeconds)]" target="_SXt90K__EeaE5OVZ6KEM8g"/>
+                        <outgoingTransitions xmi:id="_UGB5wK__EeaE5OVZ6KEM8g" specification="always[active(EndEdit.pushed.Hold.plusTwoSeconds)]" target="_SXt90K__EeaE5OVZ6KEM8g"/>
                         <outgoingTransitions xmi:id="_UedA0K__EeaE5OVZ6KEM8g" specification="Buttons.bottomRightReleased[active(EndEdit.pushed.Hold.pushed)]" target="_S5cK0K__EeaE5OVZ6KEM8g"/>
                       </vertices>
                       <vertices xsi:type="sgraph:State" xmi:id="_SXt90K__EeaE5OVZ6KEM8g" name="end" incomingTransitions="_UGB5wK__EeaE5OVZ6KEM8g"/>
@@ -3239,7 +3239,7 @@
                                   <styles xsi:type="notation:ShapeStyle" xmi:id="_RlI4QbApEeaHOPa3zwvaPA" fontName="Verdana" fillColor="15981773" lineColor="12632256"/>
                                   <styles xsi:type="notation:FontStyle" xmi:id="_RlI4QrApEeaHOPa3zwvaPA"/>
                                   <styles xsi:type="notation:BooleanValueStyle" xmi:id="_RlJfUbApEeaHOPa3zwvaPA" name="isHorizontal" booleanValue="true"/>
-                                  <layoutConstraint xsi:type="notation:Bounds" xmi:id="_RlI4Q7ApEeaHOPa3zwvaPA" x="383" y="484" width="101" height="36"/>
+                                  <layoutConstraint xsi:type="notation:Bounds" xmi:id="_RlI4Q7ApEeaHOPa3zwvaPA" x="249" y="506" width="101" height="36"/>
                                 </children>
                                 <children xmi:id="_UkHx4LApEeaHOPa3zwvaPA" type="State" element="_UkDgcLApEeaHOPa3zwvaPA">
                                   <children xsi:type="notation:DecorationNode" xmi:id="_UkHx5LApEeaHOPa3zwvaPA" type="StateName">
@@ -3556,7 +3556,7 @@
                           <styles xsi:type="notation:FontStyle" xmi:id="__cDUdrAlEeaHOPa3zwvaPA"/>
                           <styles xsi:type="notation:BooleanValueStyle" xmi:id="__cDUd7AlEeaHOPa3zwvaPA" name="isHorizontal" booleanValue="true"/>
                           <styles xsi:type="notation:StringValueStyle" xmi:id="__cDUeLAlEeaHOPa3zwvaPA" name="featureToShow" stringValue="documentation"/>
-                          <layoutConstraint xsi:type="notation:Bounds" xmi:id="__cDUebAlEeaHOPa3zwvaPA" x="4783" y="4606" width="3638" height="2228"/>
+                          <layoutConstraint xsi:type="notation:Bounds" xmi:id="__cDUebAlEeaHOPa3zwvaPA" x="4782" y="4605" width="3639" height="2230"/>
                         </children>
                         <children xmi:id="__cDUerAlEeaHOPa3zwvaPA" type="State" element="_A-2_kKgzEeaNKs30SnYyOw">
                           <children xsi:type="notation:DecorationNode" xmi:id="__cDUe7AlEeaHOPa3zwvaPA" type="StateName">
