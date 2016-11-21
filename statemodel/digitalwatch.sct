@@ -248,7 +248,7 @@
                     <outgoingTransitions xmi:id="_WYwBQK61Eea2kocOBDTJeg" specification="after 500ms" target="_UFgzUK61Eea2kocOBDTJeg"/>
                   </vertices>
                   <vertices xsi:type="sgraph:State" xmi:id="_UFgzUK61Eea2kocOBDTJeg" specification="entry/Display.hideSelection()" name="timeEditBlinkOff" incomingTransitions="_WYwBQK61Eea2kocOBDTJeg">
-                    <outgoingTransitions xmi:id="_Zn42wK61Eea2kocOBDTJeg" specification="after 250ms" target="_PHHmsK61Eea2kocOBDTJeg"/>
+                    <outgoingTransitions xmi:id="_Zn42wK61Eea2kocOBDTJeg" specification="after 500ms" target="_PHHmsK61Eea2kocOBDTJeg"/>
                   </vertices>
                 </regions>
                 <regions xmi:id="_gvlhAKkJEearJrT7kFweVw" name="EndEdit">
@@ -441,13 +441,13 @@
                 </regions>
                 <regions xmi:id="_tN_g4K_4EeaE5OVZ6KEM8g" name="EditModeBlinking">
                   <vertices xsi:type="sgraph:State" xmi:id="_6o_yIK6zEea2kocOBDTJeg" specification="entry/Display.refreshTimeDisplay()&#xD;&#xA;entry/Display.refreshDateDisplay()&#xD;&#xA;entry/Display.showSelection()" name="timeEditBlinkOn" incomingTransitions="_DIoQ4K60Eea2kocOBDTJeg _LDvtUK60Eea2kocOBDTJeg">
-                    <outgoingTransitions xmi:id="_HTH7YK60Eea2kocOBDTJeg" specification="after 200ms" target="_F27DIK60Eea2kocOBDTJeg"/>
+                    <outgoingTransitions xmi:id="_HTH7YK60Eea2kocOBDTJeg" specification="after 500ms" target="_F27DIK60Eea2kocOBDTJeg"/>
                   </vertices>
                   <vertices xsi:type="sgraph:Entry" xmi:id="_54oFIK6zEea2kocOBDTJeg">
                     <outgoingTransitions xmi:id="_DIoQ4K60Eea2kocOBDTJeg" specification="" target="_6o_yIK6zEea2kocOBDTJeg"/>
                   </vertices>
                   <vertices xsi:type="sgraph:State" xmi:id="_F27DIK60Eea2kocOBDTJeg" specification="entry/Display.hideSelection()" name="timeEditBlinkOff" incomingTransitions="_HTH7YK60Eea2kocOBDTJeg">
-                    <outgoingTransitions xmi:id="_LDvtUK60Eea2kocOBDTJeg" specification="after 200ms" target="_6o_yIK6zEea2kocOBDTJeg"/>
+                    <outgoingTransitions xmi:id="_LDvtUK60Eea2kocOBDTJeg" specification="after 500ms" target="_6o_yIK6zEea2kocOBDTJeg"/>
                   </vertices>
                 </regions>
                 <regions xmi:id="_vpglwK6zEea2kocOBDTJeg" name="EndEdit">
@@ -591,7 +591,7 @@
                     <outgoingTransitions xmi:id="_d7GkgK8aEeaAn-GzoswLQQ" specification="after 500ms" target="_dDhcTK8aEeaAn-GzoswLQQ"/>
                   </vertices>
                   <vertices xsi:type="sgraph:State" xmi:id="_dDhcTK8aEeaAn-GzoswLQQ" specification="entry/Display.hideSelection()" name="alarmEditBlinkOff" incomingTransitions="_d7GkgK8aEeaAn-GzoswLQQ">
-                    <outgoingTransitions xmi:id="_fdPFoK8aEeaAn-GzoswLQQ" specification="after 250ms" target="_Zflbfa8aEeaAn-GzoswLQQ"/>
+                    <outgoingTransitions xmi:id="_fdPFoK8aEeaAn-GzoswLQQ" specification="after 500ms" target="_Zflbfa8aEeaAn-GzoswLQQ"/>
                   </vertices>
                   <vertices xsi:type="sgraph:Entry" xmi:id="_xDS3IK_7EeaE5OVZ6KEM8g">
                     <outgoingTransitions xmi:id="_xdGeQK_7EeaE5OVZ6KEM8g" specification="" target="_Zflbfa8aEeaAn-GzoswLQQ"/>
@@ -738,7 +738,7 @@
                     <outgoingTransitions xmi:id="_7T_mkK8ZEeaAn-GzoswLQQ" specification="after 500ms&#xD;&#xA;" target="_1KIsYK8ZEeaAn-GzoswLQQ"/>
                   </vertices>
                   <vertices xsi:type="sgraph:State" xmi:id="_1KIsYK8ZEeaAn-GzoswLQQ" specification="entry/Display.hideSelection()" name="alarmEditBlinkOff" incomingTransitions="_7T_mkK8ZEeaAn-GzoswLQQ">
-                    <outgoingTransitions xmi:id="_8oEdkK8ZEeaAn-GzoswLQQ" specification="after 250ms" target="_o76cAK8ZEeaAn-GzoswLQQ"/>
+                    <outgoingTransitions xmi:id="_8oEdkK8ZEeaAn-GzoswLQQ" specification="after 500ms" target="_o76cAK8ZEeaAn-GzoswLQQ"/>
                   </vertices>
                   <vertices xsi:type="sgraph:Entry" xmi:id="_oAQFAK8ZEeaAn-GzoswLQQ">
                     <outgoingTransitions xmi:id="_wVWHsK8ZEeaAn-GzoswLQQ" specification="" target="_o76cAK8ZEeaAn-GzoswLQQ"/>
@@ -5543,7 +5543,7 @@
       </children>
       <styles xsi:type="notation:ConnectorStyle" xmi:id="_s1zY4agtEeaNKs30SnYyOw" lineColor="4210752"/>
       <styles xsi:type="notation:FontStyle" xmi:id="_s1zY46gtEeaNKs30SnYyOw" fontName="Verdana"/>
-      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_s1zY4qgtEeaNKs30SnYyOw" points="[-8, -6, 250, 205]$[-254, -234, 4, -23]"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_s1zY4qgtEeaNKs30SnYyOw" points="[-34, 1, 4327, -217]$[-4358, 218, 3, 0]"/>
       <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_s10nAKgtEeaNKs30SnYyOw" id="(0.09631728045325778,0.005376344086021506)"/>
       <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_s10nAagtEeaNKs30SnYyOw" id="(0.9949238578680203,0.21844660194174756)"/>
     </edges>
